@@ -23,6 +23,11 @@ function getDBConnection() {
                 PDO::ATTR_EMULATE_PREPARES   => false,
             ];
             $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
+            
+            // Fix Timezone Sync
+            date_default_timezone_set('Asia/Kuala_Lumpur');
+            $pdo->exec("SET time_zone = '+08:00'");
+
         } catch (PDOException $e) {
             die("Database Connection Error: " . htmlspecialchars($e->getMessage()));
         }
