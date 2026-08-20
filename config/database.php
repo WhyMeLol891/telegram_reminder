@@ -7,7 +7,7 @@ define('DB_USER', 'synergy1_yenping');
 define('DB_PASS', 'R.zb0ZwEuGZ}*fW2');
 
 // Telegram Bot API Token
-define('TELEGRAM_BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN_HERE');
+define('TELEGRAM_BOT_TOKEN', '8999637533:AAGHPe48_v4S1rO0dCyhWesghKjHlCqGDb8');
 
 // Cron Security Secret Key (To prevent direct HTTP access)
 define('CRON_SECRET_KEY', 'MY_SUPER_SECRET_KEY_123');
