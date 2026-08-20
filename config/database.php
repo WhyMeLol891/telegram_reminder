@@ -2,9 +2,9 @@
 // config/database.php
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'telegram_reminder_db');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'synergy1_derricklim_telegram_reminder');
+define('DB_USER', 'synergy1_yenping');
+define('DB_PASS', 'R.zb0ZwEuGZ}*fW2');
 
 // Telegram Bot API Token
 define('TELEGRAM_BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN_HERE');
